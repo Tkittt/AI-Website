@@ -1,0 +1,129 @@
+/* Áp dụng cho toàn bộ phần tử */
+* {
+    box-sizing: border-box;
+}
+
+/* Giao diện chung */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #1f2937;
+    background-color: #f3f6fb;
+}
+
+/* Đầu trang */
+header {
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(135deg, #111827, #2563eb);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 42px;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 18px;
+}
+
+/* Thanh điều hướng */
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 12px;
+    background-color: #111827;
+}
+
+nav a {
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+nav a:hover {
+    background-color: #2563eb;
+}
+
+/* Nội dung chính */
+main {
+    width: min(1000px, 90%);
+    margin: 35px auto;
+}
+
+section {
+    margin-bottom: 25px;
+    padding: 25px;
+    background-color: white;
+    border-left: 5px solid #2563eb;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    margin-top: 0;
+    color: #1d4ed8;
+}
+
+/* Chân trang */
+footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #111827;
+}
+
+/* Giao diện trên điện thoại */
+@media (max-width: 600px) {
+    header {
+        padding: 40px 15px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main {
+        width: 92%;
+    }
+
+    section {
+        padding: 18px;
+    }
+}
+/* Khung lợi ích */
+.benefit-box {
+    border-left-color: #16a34a;
+}
+
+.benefit-box h2 {
+    color: #15803d;
+}
+
+/* Khung rủi ro */
+.risk-box {
+    border-left-color: #dc2626;
+}
+
+.risk-box h2 {
+    color: #b91c1c;
+}
+section img {
+    display: block;
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+    margin: 20px auto 0;
+    border-radius: 10px;
+}
