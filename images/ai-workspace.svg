@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Không gian làm việc với AI</title>
+  <desc id="desc">Một cửa sổ công việc có biểu đồ, thẻ nội dung và hội thoại bên cạnh.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf3ff"/><stop offset="1" stop-color="#e0f3ee"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3978ff"/><stop offset="1" stop-color="#184cc1"/></linearGradient>
+  </defs>
+  <rect width="720" height="480" rx="32" fill="url(#bg)"/>
+  <circle cx="620" cy="75" r="100" fill="#fff" opacity=".38"/>
+  <circle cx="75" cy="430" r="130" fill="#fff" opacity=".4"/>
+  <rect x="90" y="78" width="450" height="330" rx="21" fill="#fff" stroke="#c4d4eb" stroke-width="3"/>
+<path d="M111 78H519Q540 78 540 99V124H90V99Q90 78 111 78Z" fill="#142b4d"/>
+<g fill="#7fa7ef"><circle cx="115" cy="102" r="5"/><circle cx="134" cy="102" r="5"/><circle cx="153" cy="102" r="5"/></g>
+<rect x="119" y="153" width="156" height="17" rx="8" fill="#235ee8"/>
+<rect x="119" y="187" width="91" height="171" rx="12" fill="#eef3fc"/>
+<rect x="233" y="187" width="266" height="171" rx="12" fill="#f1f7fc"/>
+<g fill="#afc7ed"><rect x="135" y="211" width="58" height="8" rx="4"/><rect x="135" y="240" width="46" height="8" rx="4"/><rect x="135" y="270" width="54" height="8" rx="4"/></g>
+<g fill="#235ee8"><rect x="266" y="290" width="37" height="42" rx="6"/><rect x="326" y="251" width="37" height="81" rx="6"/><rect x="386" y="219" width="37" height="113" rx="6"/></g>
+<path d="M479 148H610Q635 148 635 173V242Q635 267 610 267H558L532 292V267H479Q455 267 455 242V173Q455 148 479 148Z" fill="#008d80"/>
+<g fill="#fff"><circle cx="498" cy="208" r="8"/><circle cx="546" cy="208" r="8"/><circle cx="594" cy="208" r="8"/></g>
+<rect x="443" y="329" width="179" height="66" rx="14" fill="#dceaff" stroke="#96b4e6" stroke-width="2"/>
+<path d="M463 362L476 375L499 350" fill="none" stroke="#008d80" stroke-width="6" stroke-linecap="round"/>
+<rect x="519" y="355" width="78" height="10" rx="5" fill="#7fa7e8"/>
+</svg>
+

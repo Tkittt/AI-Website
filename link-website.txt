@@ -1,0 +1,17 @@
+BÀI TẬP WEBSITE TĨNH RESPONSIVE
+Chủ đề: AI trong cuộc sống
+Họ tên: Phan Thế Kiệt
+MSSV: 2531540443
+
+Website GitHub Pages: https://tkittt.github.io/AI-Website/
+Kho mã nguồn: https://github.com/Tkittt/AI-Website
+
+TRẠNG THÁI BẢN NÂNG CẤP:
+Bản 8 trang trong ZIP này dùng để xem thử, chưa được tải lên GitHub trong lần tạo bản này.
+Đường dẫn trên là URL đã dùng cho bài tập cũ. Sau khi cập nhật toàn bộ mã mới lên kho,
+hãy kiểm tra website và đổi dòng trạng thái này thành "Đã triển khai và kiểm tra bản nâng cấp"
+trước khi nộp.
+
+Xem thử: giải nén ZIP, mở thư mục AI-Website-Responsive, mở index.html bằng trình duyệt.
+Hướng dẫn chi tiết: README.md.
+

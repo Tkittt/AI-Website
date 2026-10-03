@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Kết nối và trao đổi</title>
+  <desc id="desc">Các khung hội thoại và biểu tượng người kết nối với nhau trong cộng đồng học AI.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf3ff"/><stop offset="1" stop-color="#e0f3ee"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3978ff"/><stop offset="1" stop-color="#184cc1"/></linearGradient>
+  </defs>
+  <rect width="720" height="480" rx="32" fill="url(#bg)"/>
+  <circle cx="620" cy="75" r="100" fill="#fff" opacity=".38"/>
+  <circle cx="75" cy="430" r="130" fill="#fff" opacity=".4"/>
+  <g fill="none" stroke="#b4c9e7" stroke-width="4"><path d="M187 146L359 320L555 142M187 146H555"/></g>
+<path d="M99 76H281Q307 76 307 102V189Q307 214 281 214H180L147 245V214H99Q73 214 73 189V102Q73 76 99 76Z" fill="url(#blue)"/>
+<g fill="#fff"><rect x="107" y="113" width="155" height="12" rx="6"/><rect x="107" y="142" width="126" height="12" rx="6"/><rect x="107" y="170" width="86" height="12" rx="6"/></g>
+<path d="M450 83H630Q656 83 656 109V191Q656 216 630 216H573V245L540 216H450Q424 216 424 191V109Q424 83 450 83Z" fill="#008d80"/>
+<g fill="#fff"><circle cx="480" cy="149" r="9"/><circle cx="540" cy="149" r="9"/><circle cx="600" cy="149" r="9"/></g>
+<circle cx="359" cy="339" r="75" fill="#fff" stroke="#bad0ec" stroke-width="3"/>
+<circle cx="359" cy="321" r="23" fill="#235ee8"/>
+<path d="M312 378Q312 347 359 347Q406 347 406 378" fill="#235ee8"/>
+<circle cx="135" cy="350" r="28" fill="#d0e0fa"/><circle cx="582" cy="354" r="28" fill="#c4e9de"/>
+</svg>
+

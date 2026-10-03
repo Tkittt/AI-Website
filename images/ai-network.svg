@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Mạng lưới AI</title>
+  <desc id="desc">Các nút đầu vào liên kết với những lớp xử lý và nút đầu ra trong một mạng minh họa.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf3ff"/><stop offset="1" stop-color="#e0f3ee"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3978ff"/><stop offset="1" stop-color="#184cc1"/></linearGradient>
+  </defs>
+  <rect width="720" height="480" rx="32" fill="url(#bg)"/>
+  <circle cx="620" cy="75" r="100" fill="#fff" opacity=".38"/>
+  <circle cx="75" cy="430" r="130" fill="#fff" opacity=".4"/>
+  <rect x="72" y="55" width="576" height="370" rx="24" fill="#fff" stroke="#d8e4f2" stroke-width="2"/>
+<g stroke="#abc1e7" stroke-width="3" opacity=".85">
+<path d="M150 125L290 160M150 125L290 320M150 240L290 160M150 240L290 320M150 355L290 160M150 355L290 320"/>
+<path d="M290 160L430 120M290 160L430 240M290 160L430 360M290 320L430 120M290 320L430 240M290 320L430 360"/>
+<path d="M430 120L575 240M430 240L575 240M430 360L575 240"/>
+</g>
+<g fill="#d8e7ff" stroke="#235ee8" stroke-width="5"><circle cx="150" cy="125" r="24"/><circle cx="150" cy="240" r="24"/><circle cx="150" cy="355" r="24"/></g>
+<g fill="url(#blue)" stroke="#fff" stroke-width="5"><circle cx="290" cy="160" r="31"/><circle cx="290" cy="320" r="31"/><circle cx="430" cy="120" r="25"/><circle cx="430" cy="240" r="25"/><circle cx="430" cy="360" r="25"/></g>
+<circle cx="575" cy="240" r="43" fill="#008d80" stroke="#fff" stroke-width="5"/>
+<path d="M557 241L569 253L592 226" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Tài liệu và nguồn tham khảo</title>
+  <desc id="desc">Các quyển sách, trang tài liệu và kính lúp minh họa việc tìm hiểu và kiểm tra nguồn thông tin.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf3ff"/><stop offset="1" stop-color="#e0f3ee"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3978ff"/><stop offset="1" stop-color="#184cc1"/></linearGradient>
+  </defs>
+  <rect width="720" height="480" rx="32" fill="url(#bg)"/>
+  <circle cx="620" cy="75" r="100" fill="#fff" opacity=".38"/>
+  <circle cx="75" cy="430" r="130" fill="#fff" opacity=".4"/>
+  <rect x="112" y="384" width="496" height="21" rx="10" fill="#adc3e3"/>
+<rect x="147" y="115" width="89" height="269" rx="12" fill="url(#blue)"/>
+<rect x="162" y="140" width="58" height="9" rx="4" fill="#b8d1ff"/>
+<rect x="162" y="163" width="39" height="9" rx="4" fill="#b8d1ff"/>
+<rect x="247" y="86" width="95" height="298" rx="12" fill="#008d80"/>
+<rect x="264" y="113" width="60" height="10" rx="5" fill="#96ddd0"/>
+<rect x="264" y="139" width="42" height="10" rx="5" fill="#96ddd0"/>
+<rect x="356" y="146" width="182" height="238" rx="13" fill="#fff" stroke="#b6cbe9" stroke-width="3"/>
+<rect x="378" y="175" width="102" height="13" rx="6" fill="#235ee8"/>
+<g fill="#cedcf0"><rect x="378" y="207" width="136" height="8" rx="4"/><rect x="378" y="229" width="119" height="8" rx="4"/><rect x="378" y="251" width="128" height="8" rx="4"/><rect x="378" y="273" width="91" height="8" rx="4"/></g>
+<circle cx="530" cy="316" r="52" fill="#e5f7f3" stroke="#008d80" stroke-width="11"/>
+<path d="M566 353L610 399" stroke="#008d80" stroke-width="19" stroke-linecap="round"/>
+<path d="M510 316L524 330L550 303" fill="none" stroke="#008d80" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+

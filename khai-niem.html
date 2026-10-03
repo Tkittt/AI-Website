@@ -1,86 +1,115 @@
 <!DOCTYPE html>
 <html lang="vi">
-
 <head>
-    <meta charset="UTF-8">
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
-    <title>Khái niệm AI</title>
-
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tìm hiểu AI, học máy, học sâu, AI tạo sinh và quy trình hoạt động cơ bản.">
+  <title>Khái niệm AI | AI trong cuộc sống</title>
+  <link rel="icon" href="images/ai-network.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
-    <header>
-        <h1>KHÁI NIỆM VỀ AI</h1>
-        <p>Tìm hiểu những kiến thức cơ bản về trí tuệ nhân tạo</p>
-    </header>
-
-    <nav>
-        <a href="index.html">Trang chủ</a>
-        <a href="khai-niem.html">Khái niệm AI</a>
-        <a href="ung-dung.html">Ứng dụng</a>
-        <a href="loi-ich-rui-ro.html">Lợi ích và rủi ro</a>
-        <a href="tai-lieu.html">Tài liệu</a>
+  <a class="skip-link" href="#noi-dung">Bỏ qua menu, đến nội dung</a>
+  <header class="site-header">
+    <div class="container brand-row">
+      <a class="brand" href="index.html" aria-label="AI trong cuộc sống — Trang chủ">
+        <span class="brand-mark" aria-hidden="true">AI</span>
+        <span class="brand-copy"><strong>AI trong cuộc sống</strong><small>Hiểu đúng. Dùng có trách nhiệm.</small></span>
+      </a>
+      <span class="project-badge">Dự án HTML5 · CSS3</span>
+    </div>
+    <nav class="site-nav" aria-label="Điều hướng chính">
+      <ul class="container nav-list">
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="khai-niem.html" aria-current="page">Khái niệm AI</a></li>
+        <li><a href="ung-dung.html">Ứng dụng</a></li>
+        <li><a href="loi-ich-rui-ro.html">Lợi ích &amp; rủi ro</a></li>
+        <li><a href="cong-cu-ai.html">Công cụ AI</a></li>
+        <li><a href="thu-vien-anh.html">Thư viện ảnh</a></li>
+        <li><a href="tai-lieu.html">Tài liệu</a></li>
+        <li><a href="lien-he.html">Liên hệ</a></li>
+      </ul>
     </nav>
-
-    <main>
-
-        <section>
-            <h2>AI là gì?</h2>
-
-            <p>
-                Trí tuệ nhân tạo, viết tắt là AI, là một lĩnh vực
-                của khoa học máy tính. AI giúp máy tính thực hiện
-                những nhiệm vụ thường cần đến trí thông minh của
-                con người như nhận dạng hình ảnh, hiểu ngôn ngữ,
-                học tập và đưa ra dự đoán.
-            </p>
-        </section>
-
-        <section>
-            <h2>AI hoạt động như thế nào?</h2>
-
-            <ol>
-                <li>Thu thập dữ liệu từ nhiều nguồn khác nhau.</li>
-                <li>Phân tích và xử lý dữ liệu.</li>
-                <li>Huấn luyện mô hình bằng các thuật toán.</li>
-                <li>Sử dụng mô hình để dự đoán hoặc tạo kết quả.</li>
-            </ol>
-        </section>
-
-        <section>
-            <h2>Các loại AI phổ biến</h2>
-
-            <ul>
-                <li>
-                    <strong>AI hẹp:</strong>
-                    Được thiết kế để thực hiện một nhiệm vụ cụ thể.
-                </li>
-
-                <li>
-                    <strong>AI tạo sinh:</strong>
-                    Có khả năng tạo văn bản, hình ảnh, âm thanh
-                    và những nội dung mới.
-                </li>
-
-                <li>
-                    <strong>AI tổng quát:</strong>
-                    Mục tiêu nghiên cứu về hệ thống có khả năng
-                    tư duy linh hoạt giống con người.
-                </li>
-            </ul>
-        </section>
-
-    </main>
-
-    <footer>
-        <p>&copy; 2026 - Phan Thế Kiệt - 2531540443</p>
-    </footer>
-
+  </header>
+  <main id="noi-dung">
+    <section class="page-hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">01 · Kiến thức nền tảng</span>
+          <h1>AI là gì, và hoạt động như thế nào?</h1>
+          <p class="hero-lead">Một cách tiếp cận dễ hiểu về trí tuệ nhân tạo: từ dữ liệu, mô hình đến kết quả mà chúng ta gặp hằng ngày.</p>
+        </div>
+        <img class="hero-illustration" src="images/ai-network.svg" alt="Các nút dữ liệu liên kết thành một mạng xử lý minh họa AI" width="720" height="480">
+      </div>
+    </section>    <section class="section-space" id="khai-niem">
+      <div class="container">
+        <div class="section-heading"><div><h2>Ba khái niệm cần phân biệt</h2><p>AI là phạm vi rộng; học máy và học sâu là những phương pháp nằm trong phạm vi đó.</p></div></div>
+        <div class="card-grid">
+          <article class="card"><span class="card-icon" aria-hidden="true">AI</span><h3>Trí tuệ nhân tạo</h3><p>Lĩnh vực xây dựng hệ thống thực hiện những nhiệm vụ như nhận biết, suy luận, xử lý ngôn ngữ hoặc hỗ trợ ra quyết định.</p><p><strong>Ví dụ:</strong> nhận dạng giọng nói để chuyển lời nói thành văn bản.</p></article>
+          <article class="card"><span class="card-icon teal" aria-hidden="true">ML</span><h3>Học máy</h3><p>Phương pháp để hệ thống học các mẫu từ dữ liệu, thay vì phải viết từng quy tắc cho mọi trường hợp.</p><p><strong>Ví dụ:</strong> học từ các email đã gắn nhãn để nhận diện thư rác.</p></article>
+          <article class="card"><span class="card-icon" aria-hidden="true">DL</span><h3>Học sâu</h3><p>Một nhánh của học máy sử dụng mạng nơ-ron nhiều lớp, thường được dùng cho ảnh, âm thanh và ngôn ngữ.</p><p><strong>Ví dụ:</strong> phân tích đặc điểm hình ảnh để phân loại vật thể.</p></article>
+        </div>
+        <p class="source-note">Tham khảo khái niệm: <a href="tai-lieu.html#ibm">IBM — Artificial intelligence</a>. Các ví dụ được diễn giải cho mục đích học tập.</p>
+      </div>
+    </section>    <section class="section-space" id="quy-trinh">
+      <div class="container">
+        <div class="section-heading"><div><h2>Từ dữ liệu đến kết quả</h2><p>Một quy trình khái quát. Hệ thống AI thực tế có thể sử dụng những cách thiết kế khác nhau.</p></div></div>
+        <div class="card-grid grid-two">
+          <article class="card"><span class="card-icon" aria-hidden="true">01</span><h3>Chuẩn bị dữ liệu</h3><p>Chọn dữ liệu phù hợp, kiểm tra chất lượng và quyền sử dụng. Dữ liệu thiếu hoặc thiên lệch có thể làm kết quả kém tin cậy.</p></article>
+          <article class="card"><span class="card-icon" aria-hidden="true">02</span><h3>Huấn luyện mô hình</h3><p>Với hệ thống học máy, quá trình huấn luyện điều chỉnh mô hình để tìm ra các mẫu hữu ích từ dữ liệu.</p></article>
+          <article class="card"><span class="card-icon teal" aria-hidden="true">03</span><h3>Đánh giá</h3><p>Thử với dữ liệu không dùng để huấn luyện, kiểm tra sai sót và xem mô hình có phù hợp với nhiệm vụ dự kiến hay không.</p></article>
+          <article class="card"><span class="card-icon teal" aria-hidden="true">04</span><h3>Sử dụng và theo dõi</h3><p>Mô hình nhận đầu vào mới và đưa ra kết quả. Người dùng đánh giá đầu ra; đơn vị vận hành tiếp tục theo dõi chất lượng.</p></article>
+        </div>
+      </div>
+    </section>    <section class="section-space" id="tao-sinh">
+      <div class="container">
+        <div class="section-heading"><div><h2>AI tạo sinh khác gì AI chuyên biệt?</h2><p>Đây không phải hai mức độ “thông minh” để xếp hạng mọi hệ thống.</p></div></div>
+        <div class="split">
+          <article class="panel"><h3>AI tạo sinh</h3><p>Tạo nội dung như văn bản, hình ảnh hoặc mã dựa trên mẫu đã học và yêu cầu của người dùng.</p><p><strong>Tình huống:</strong> gợi ý một dàn ý bài thuyết trình. Bản nháp cần được chỉnh sửa và kiểm chứng.</p></article>
+          <article class="panel"><h3>AI cho nhiệm vụ chuyên biệt</h3><p>Được thiết kế để phục vụ một nhiệm vụ hoặc phạm vi cụ thể, chẳng hạn phân loại thư rác hay nhận dạng vật thể.</p><p><strong>Lưu ý:</strong> một công cụ AI tạo sinh vẫn có thể phục vụ một phạm vi sử dụng chuyên biệt.</p></article>
+        </div>
+        <div class="note"><p>AI có thể tạo câu trả lời nghe rất thuyết phục nhưng vẫn sai. Khả năng tạo nội dung không đồng nghĩa với việc luôn hiểu đúng hoặc luôn có thông tin chính xác.</p></div>
+      </div>
+    </section>    <section class="section-space" id="cau-hoi">
+      <div class="container">
+        <div class="section-heading"><div><h2>Câu hỏi thường gặp</h2><p>Nhấn vào câu hỏi để mở phần giải thích.</p></div></div>
+        <div class="faq">
+          <details><summary>AI có phải lúc nào cũng tự học sau mỗi lần mình sử dụng?</summary><p>Không. Điều đó phụ thuộc cách hệ thống được thiết kế và chính sách dữ liệu của dịch vụ. Việc trò chuyện với một công cụ không tự động chứng minh mô hình được huấn luyện lại ngay.</p></details>
+          <details><summary>Có cần biết lập trình mới dùng được AI không?</summary><p>Không nhất thiết. Nhiều công cụ có giao diện hội thoại. Tuy vậy, hiểu nhiệm vụ và biết cách kiểm tra kết quả vẫn quan trọng.</p></details>
+          <details><summary>Nên tìm hiểu gì tiếp theo?</summary><p>Đọc <a href="ung-dung.html">các ứng dụng thực tế</a>, rồi xem <a href="loi-ich-rui-ro.html">lợi ích và rủi ro</a> trước khi lựa chọn công cụ.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2>AI trong cuộc sống</h2>
+          <p>Cùng tìm hiểu trí tuệ nhân tạo, khám phá ứng dụng và hình thành thói quen sử dụng có trách nhiệm.</p>
+        </div>
+        <div>
+          <h3>Khám phá</h3>
+          <ul>
+            <li><a href="khai-niem.html">Bắt đầu với khái niệm AI</a></li>
+            <li><a href="cong-cu-ai.html">Tìm hiểu công cụ AI</a></li>
+            <li><a href="loi-ich-rui-ro.html">Sử dụng AI an toàn</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Thông tin dự án</h3>
+          <ul>
+            <li><a href="lien-he.html">Phan Thế Kiệt · 2531540443</a></li>
+            <li><a href="tai-lieu.html">Tài liệu &amp; nguồn hình ảnh</a></li>
+            <li><a href="https://github.com/Tkittt/AI-Website" target="_blank" rel="noopener noreferrer">Mã nguồn trên GitHub ↗</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Phan Thế Kiệt · MSSV: 2531540443</p>
+        <p>Website tĩnh · HTML5 &amp; CSS3 · Thiết kế responsive</p>
+      </div>
+    </div>
+  </footer>
 </body>
-
 </html>
